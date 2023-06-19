@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav > ul{
+    background-color: #9e7a7a;
+    width: 100%;   
+}
+#name{
+    float: left;
+    padding: 1em;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Limelight', cursive;
+}
+li{
+    float: right;
+    padding: 1em;
+}
+.nav > ul > li{
+    text-decoration: none;
+    font-family: cursive;
+    display: inline;
+}
+li :hover {
+    color: white;
+}
+
+#btn{
+    margin: 1em;
+    background-color: rgba(245, 229, 243, 0.507);
+    border-radius: 2em;
+    padding: 5px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+
+.container{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.clearfix{
+    clear: both;
+    border-top: 2px;
+}
+
+.btn1{
+    background-color: rgba(226, 12, 30, 0.39);
+    border-radius: 1.9em;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    display: inline-block;
+}
+h1{ 
+    font-family: 'Limelight', cursive;
+    font-size: xx-large;  
+}
+.container{
+    margin-top: 0;
+    padding-top: 5px;
+    padding: 10px;
+    position: relative;    
+    transition: opacity 500ms;
+}
+.post{
+    
+    margin-bottom: 0;
+}
+
+img{
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+}
+.girl-img{
+   
+    position: absolute;
+}
+.box{
+    padding:0%;
+}
+
+footer{
+    
+    background-color: violet;
+    font-family: cursive;
+}
+footer>li{
+    text-decoration: none;
+    display: inline-block;
+}
